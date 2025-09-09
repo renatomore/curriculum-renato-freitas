@@ -1,69 +1,67 @@
-# React + TypeScript + Vite
+# Currículo Pessoal — Renato Freitas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto que contém o currículo pessoal de Renato Freitas, implementado como uma aplicação web leve.
 
-Currently, two official plugins are available:
+Tecnologias
+- React + TypeScript
+- Vite
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Descrição
+Este repositório serve como uma versão web do meu currículo, com suporte a impressão em PDF e alternância de idioma (PT-BR / EN-US). A interface é responsiva e focada em apresentação profissional.
 
-## Expanding the ESLint configuration
+Uso
+1. Instalar dependências:
+   npm install
+2. Rodar em desenvolvimento:
+   npm run dev
+3. Gerar build de produção:
+   npm run build
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Deploy (GitHub Pages)
+- Já está configurado para deploy via gh-pages. Execute:
+  npm run deploy
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Estrutura
+- src/: código-fonte da aplicação
+- public/: ativos estáticos
+- dist/: saída de build (gerada após npm run build)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Contato
+Para contato profissional, [acesse a página do currículo](https://renatomore.github.io/curriculum-renato-freitas/) ou o link do LinkedIn presente na interface.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# English version
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Personal Resume — Renato Freitas
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This project contains Renato Freitas' personal resume implemented as a lightweight web application.
+
+Technologies
+- React + TypeScript
+- Vite
+- Tailwind CSS
+
+Description
+This repository serves as a web version of my resume, with support for printing to PDF and language switching (PT-BR / EN-US). The interface is responsive and focused on professional presentation.
+
+Usage
+1. Install dependencies:
+   npm install
+2. Run development server:
+   npm run dev
+3. Build for production:
+   npm run build
+
+Deployment (GitHub Pages)
+- Configured for deployment via gh-pages. Run:
+  npm run deploy
+
+Structure
+- src/: application source code
+- public/: static assets
+- dist/: build output (generated after npm run build)
+
+Contact
+For professional contact, visit the resume page: https://renatomore.github.io/curriculum-renato-freitas/ or use the LinkedIn link available inside the application.
