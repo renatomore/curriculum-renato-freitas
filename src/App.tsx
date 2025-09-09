@@ -6,8 +6,8 @@ import "./index.css";
 const data = {
   name: "RENATO FREITAS",
   titles: {
-    pt: "Desenvolvedor Front-end",
-    en: "Front-end Developer",
+    pt: "Desenvolvedor Front-end Senior",
+    en: "Senior Front-end Developer",
   },
   contact: {
     email: "renattomoreyra@hotmail.com",
@@ -50,8 +50,17 @@ const data = {
     pt: [
       {
         company: "Banco Itaú",
+        role: "Analista de Engenharia de T.I. Senior (Front-end)",
+        period: "jul 2025 – atual",
+        location: "São Paulo, SP",
+        bullets: [
+          "Desenvolvimento Front-end com ReactJS, atuando com microfrontends, AppShell, bibliotecas personalizadas, testes integrados, e infra AWS.",
+        ],
+      },
+      {
+        company: "Banco Itaú",
         role: "Analista de Engenharia de T.I. Pleno (Front-end)",
-        period: "nov 2024 – atual",
+        period: "nov 2024 – jun 2025",
         location: "São Paulo, SP",
         bullets: [
           "Desenvolvimento Front-end com ReactJS, atuando com microfrontends, AppShell e bibliotecas personalizadas.",
@@ -98,8 +107,17 @@ const data = {
     en: [
       {
         company: "Banco Itaú",
+        role: "Senior Software Engineer (Front-end)",
+        period: "Jul 2025 – atual",
+        location: "São Paulo, SP",
+        bullets: [
+          "Front-end development with ReactJS, working with microfrontends, AppShell, custom libraries, integrated tests and infrastructure AWS.",
+        ],
+      },
+      {
+        company: "Banco Itaú",
         role: "Mid-level Software Engineer (Front-end)",
-        period: "Nov 2024 – Present",
+        period: "Nov 2024 – Jun 2025",
         location: "São Paulo, Brazil",
         bullets: [
           "Front-end development with ReactJS, working with microfrontends, AppShell, and custom libraries.",
